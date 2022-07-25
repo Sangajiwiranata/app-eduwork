@@ -1,21 +1,11 @@
-// import Makan from './makan';
 import React from 'react';
-
-const Intro = () => {
-  return (
-    <div>
-      <h2>Masukkan Nama Anda : </h2>
-    </div>
-  )
-}
+import Market from './prons_state/Market';
 
 
 function App() {
   return (
     <div className="App" >
-      <Intro />
-      <input></input>
-      <button onClick={"Sangaji"}>Submit</button>
+      <Market/>
     </div>
   );
 }
