@@ -1,11 +1,10 @@
 import React from 'react';
-import Market from './prons_state/Market';
-
+import Bootstrap from './Bootstrap';
 
 function App() {
   return (
     <div className="App" >
-      <Market/>
+      <Bootstrap/>
     </div>
   );
 }
